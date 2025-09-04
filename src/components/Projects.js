@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const projects = [
+  { title: "DoctBot", description: "Developed a retrieval-augmented medical chatbot using FastAPI and Ollama LLM to answer Arabic medical queries with symptom summaries, possible diagnoses, and initial advice.", link: "https://github.com/MohamedMohy0/MedicalChatBot" },
   { title: "Math Solver AI Bot", description: "Llama 3.2 3B with RAG method to solve Math Questions. Integrated a custom knowledge base with a simple Streamlit interface, enabling users to input queries and receive accurate, step-by-step solutions in real time.", link: "https://github.com/MohamedMohy0/Chat_Math" },
   { title: "Time of Death", description: "ODE Equation with ANN to find the time of death for a body with Temperature of room and body Developed an Artificial Neural Network model to estimate the time of death based on body temperature and ambient room temperature using Newton’s Law of Cooling", link: "#" },
   { title: "Furniture Classification", description: "A Deep Learning model to classify images of interior designs Built a deep learning model to classify furniture images into categories (e.g., modern, classic, Asian) using convolutional neural networks ", link: "https://github.com/MohamedMohy0/Image-classfication" },
